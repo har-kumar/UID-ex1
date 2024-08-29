@@ -1,0 +1,52 @@
+.skills-container {
+    padding: 20px;
+    background-color: #f4f4f4; /* Light gray background for contrast */
+    border-radius: 10px;
+}
+
+.skills-title {
+    font-size: 2rem;
+    color: #005f99; /* Dark blue for title */
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.skill-bar-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill-name {
+    flex: 1;
+    font-size: 1.2rem;
+    color: #333333; /* Dark gray for skill names */
+}
+
+.skill-bar {
+    flex: 3;
+    height: 20px;
+    background-color: #e0e0e0; /* Light gray background for bars */
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.skill-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #00aaff, #005f99); /* Gradient color for fill */
+    border-radius: 10px;
+    transition: width 0.5s ease;
+}
+
+.skill-level {
+    flex: 1;
+    text-align: right;
+    font-size: 1.1rem;
+    color: #333333; /* Dark gray for skill levels */
+}

@@ -1,0 +1,14 @@
+/* Navbar styles */
+.navbar ul {
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 10px 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}

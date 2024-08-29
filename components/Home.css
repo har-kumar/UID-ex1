@@ -1,0 +1,66 @@
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0 50px;
+    background-color: #ffffff; /* White background */
+}
+
+.content-section {
+    flex: 2;
+    padding-left: 50px;
+    text-align: left;
+    color: #333333; /* Dark gray text for readability */
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #000000; /* Black color for headings */
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #005f99; /* Dark blue for heading */
+}
+
+h3 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+    color: #333333; /* Dark gray for subheadings */
+}
+
+p {
+    margin: 20px 0;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #333333; /* Dark gray for paragraph text */
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background: #005f99; /* Dark blue background */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #003f6c; /* Even darker blue on hover */
+}
+
+.social-icons a {
+    color: #333333; /* Dark gray icons */
+    font-size: 2rem;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #005f99; /* Dark blue on hover */
+}
