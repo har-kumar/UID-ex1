@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 #  output 
-![Uploading Screenshot 2024-08-29 234547.png…]()
+![Screenshot 2024-08-29 234547](https://github.com/user-attachments/assets/362c387b-6aee-41b1-b21f-b70e36daa521)
 
 
 ## Available Scripts
